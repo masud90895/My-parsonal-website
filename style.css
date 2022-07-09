@@ -1,0 +1,163 @@
+*{margin:0;padding:0;}
+#menu{
+    position: absolute;
+    top: 8px;
+  left: 1400px;
+	padding:0;
+	list-style-type:none;
+	background:#000000;
+	min-height:38px;
+	margin:0 auto;
+}
+#menu li{
+	float:left;
+	border-right:1px solid #000000;
+	border-left:1px solid #000000;
+	position:relative;
+	
+}
+
+#menu li:last-child{
+	border-right:none;
+    
+}
+#menu li:first-child{
+	border-left:none;
+}
+#menu li a{
+	color:#000000;
+	text-decoration:none;
+	background:#7CFF0D;
+	padding:10px 20px;
+	display:block;
+    font-weight: bold;
+	transition:0.3s all ease;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+#menu li a:hover{
+	background:white;
+}
+#m2 h2 p{
+    position: absolute;
+    top: 0px;
+    left: 106px;
+}
+#m2 h2 div{
+    position: absolute;
+    top: 8px;
+  left: 69px;
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+}
+#m6 img{
+    width: 428px;
+    height: 566px;
+    position: absolute;
+    top: 51px;
+    left: 1178px;
+    border-radius: 40%;
+}
+#m6 p{ 
+    position: absolute;
+    top: 51px;
+    left: 1178px;
+    color: white;
+    font-size: 30px;
+ 
+}
+#m7{
+    margin-top:335px;
+    margin-left: -731px;
+}
+#m8{
+    margin-top:335px;
+    margin-left: -731px;
+}
+#m9{
+    margin-top: 417px;
+    margin-left: -905px;
+}
+#m10{
+    top:335px;
+}
+#m13{
+    position: absolute;
+    top: 576px;
+    left: 199px;
+    padding: 15px;
+    width: 400px;
+    border-radius: 20px;
+    border-color: #7CFF0D;
+}
+#m11 button{
+    position: absolute;
+    top: 583px;
+    left: 636px;
+    width: 97px;
+    height: 35px;
+    color:#000000;
+    font-weight: bold;
+    border-radius: 33px;
+    background-color: #7CFF0D;
+    border: none;
+    margin-left: -109px;
+}
+#m99{
+    font-size: 40px;
+}
+#m99:hover{
+    color: #7CFF0D;
+}
+#m16{
+    position: absolute;
+    top: 897px;
+    left: 777px;
+    color: white;
+    font-size: 30px;
+}
+#m15 button{
+    position: absolute;
+    top: 977px;
+    left: 868px;
+    width: 124px;
+    height: 54px;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 33px;
+    background-color: #7CFF0D;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+    position: absolute;
+    top: 1046px;
+    left: 62px;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+    position: absolute;
+    top: 1046px;
+    left: 1744px;
+
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
